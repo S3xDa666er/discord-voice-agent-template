@@ -1,0 +1,22 @@
+{
+  "name": "discord-voice-agent-bridge",
+  "version": "1.0.0",
+  "description": "Bridge a Discord voice channel to an ElevenLabs Conversational AI agent (realtime).",
+  "type": "module",
+  "main": "agent.mjs",
+  "scripts": {
+    "start": "node agent.mjs",
+    "test-agent": "node test-agent.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.19.2",
+    "@snazzah/davey": "^0.1.11",
+    "discord.js": "^14.26.4",
+    "dotenv": "^17.4.2",
+    "libsodium-wrappers": "^0.8.4",
+    "prism-media": "^1.3.5",
+    "ws": "^8.21.0"
+  }
+}
